@@ -1,299 +1,314 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <!-- Keep your Google verification if needed -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="4RX0jukQEslOSAOdDfhHTnYeUHa4jnX4VNjkf3nRrIU" />
-  <meta name="description" content="Homepage of Xiaoxuan (Mandy) Wang, PhD student at UCLA." />
+  <meta name="description" content="Homepage of Xiaoxuan (Mandy) Wang, PhD student at UCLA working on agentic reinforcement learning and LLM agents." />
   <link rel="icon" type="image/png" href="photos/Jun2022.ico" />
-  <title>Xiaoxuan Wang (PhD student at UCLA)</title>
+  <title>Xiaoxuan (Mandy) Wang</title>
 
-  <!-- Minimal embedded style for demonstration -->
-  <style type="text/css">
-    /* Light violet background for the entire page */
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #FFFFFF; /* Light violet */
-      font-family: Arial, sans-serif;
-      color: #333333;
-    }
+  <!-- Type system: Space Grotesk (display) / Inter (body) / IBM Plex Mono (metadata) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
 
-    /* Heading color slightly deeper violet */
-    h2 {
-      color: #7E57C2;
-      margin: 0.5em 0;
-    }
-
-    a {
-      color: #6A1B9A;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #4A148C;
-    }
-
-    /* Paragraph and list spacing */
-    p {
-      margin: 0.5em 0;
-      line-height: 1.4em;
-    }
-
-    ul {
-      margin-top: 0;
-      margin-bottom: 1em;
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 0.5em;
-    }
-
-    /* Main outer table is centered, white background */
-    table {
-      margin-left: auto;
-      margin-right: auto;
-      border-collapse: separate;
-      border-spacing: 0px;
-    }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Main outer table: White background, max width 1000px -->
-  <table style="width:100%; background:#FFFFFF; max-width:1000px; 
-                border:0; border-spacing:0; margin:auto;">
-    <tbody>
-      <tr style="padding:0">
-        <td style="padding:0">
-          <!-- Intro table (Name, photo, links) -->
-          <table style="width:100%; border:0; border-spacing:0; margin:auto;">
-            <tbody>
-              <tr style="padding:0">
-                <td style="padding:2.5%; width:63%; vertical-align:middle;">
-                  <p style="text-align:center;">
-                    <h2>Xiaoxuan (Mandy) Wang</h2>
-                  </p>
-                  <p>
-                    <strong>PhD student</strong><br />
-                    <!-- <br />Scalable Analytics Institute (ScAi),<br /> -->
-                    Department of <a href="https://www.cs.ucla.edu/">Computer Science</a>, <a href="https://www.ucla.edu/">University of California Los Angeles</a>.<br />
-                  </p>
-                  <p>
-                    I am currently a fourth-year Ph.D. student in Computer Science at University of California, Los Angeles (UCLA),
-                    where I have the privilege of being advised by Prof.
-                    <a href="https://web.cs.ucla.edu/~weiwang/">Wei Wang</a> and collaborating closely with
-                    Prof. <a href="https://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a>.
-                    My research interests focus on LLM post-training for reasoning and agents.
-                    I earned my bachelor's degree in Computer Science from University of Illinois at Urbana-Champaign (UIUC) in May 2022
-                  </p>
-                  <p>
-                    Email: xw27 [at] cs [dot] ucla [dot] edu<br />
-                    [ <a href="mailto:xw27@cs.ucla.edu">Email</a> /
-                      <a href="https://www.linkedin.com/in/mandy-wang-a72046192/">LinkedIn</a> /
-                      <a href="https://scholar.google.com/citations?user=5LDKaEYAAAAJ&hl=en">Google Scholar</a> /
-                      <a href="cv/resume_2026.pdf">CV</a> ]
-                  </p>
-                </td>
-                <td style="padding:2.5%; width:18%; max-width:40%;">
-                  <a href="photos/Jun2022.jpg">
-                    <img style="width:100%; max-width:100%;" alt="Xiaoxuan Wang" src="photos/Jun2022.jpg" />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+  <div class="wrapper">
 
+    <!-- ---------- Sidebar ---------- -->
+    <header>
+      <a href="photos/Jun2022.jpg"><img class="avatar" src="photos/Jun2022.jpg" alt="Xiaoxuan Wang" /></a>
+      <h1>Xiaoxuan (Mandy) Wang</h1>
+      <p class="position">Ph.D. Student</p>
+      <p class="affiliation"><a href="https://www.cs.ucla.edu/">Computer Science, UCLA</a></p>
+      <p class="email">xw27 [at] cs.ucla.edu</p>
+      <div class="social-icons">
+        <a href="mailto:xw27@cs.ucla.edu" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://scholar.google.com/citations?user=5LDKaEYAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="cv/resume_2026.pdf" title="CV" aria-label="CV"><i class="ai ai-cv"></i></a>
+        <a href="https://github.com/mandyyyyii" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mandy-wang-a72046192/" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </header>
 
-          <!-- Education -->
-          <table style="width:100%; border:0; margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px; vertical-align:middle;">
-                  <h2>Education</h2>
-                  <ul>
-                    <li>
-                      <strong>Ph.D. Student in Computer Science</strong><br />
-                      University of California, Los Angeles (UCLA), U.S.<br />
-                      Sep 2022 - Present
-                    </li>
-                    <li>
-                      <strong>Bachelor in Computer Science</strong><br />
-                      University of Illinois Urbana-Champaign<br />
-                      Aug 2018 - May 2022
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <!-- ---------- Main content ---------- -->
+    <section>
 
-          <!-- Short Bio -->
-          <!-- <table style="width:100%; border:0; margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px; vertical-align:middle;">
-                  <h2>Short Bio</h2>
-                  <p>
-                    I am currently a third-year Ph.D. student in Computer Science at University of California, Los Angeles (UCLA),
-                    where I have the privilege of being advised by Prof.
-                    <a href="https://web.cs.ucla.edu/~weiwang/">Wei Wang</a> and collaborating closely with
-                    Prof. <a href="https://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a>.
-                    My research interests focus on post-training for Large Language Models and Machine Reasoning.
-                    I earned my bachelor's degree in Computer Science from the University of Illinois at Urbana-Champaign (UIUC) in May 2022.
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
+      <h2>About Me</h2>
+      <p>
+        I am a fourth-year Ph.D. student in Computer Science at the University of California, Los Angeles (UCLA),
+        advised by Prof. <a href="https://web.cs.ucla.edu/~weiwang/">Wei Wang</a> and collaborating closely with
+        Prof. <a href="https://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a>.
+      </p>
+      <p>
+        My research centers on <strong>agentic reinforcement learning</strong> and <strong>LLM agents</strong>,
+        — building stable, scalable agents for real-world interactions. I am also interested in <strong>LLM reasoning</strong>,
+        spanning planning, tool use, and scientific problem-solving.
+      </p>
+      <p>
+        I organize the UCLA Data Mining reading group. Before UCLA, I earned my B.S. in Computer Science from the
+        University of Illinois Urbana-Champaign in May 2022.
+      </p>
 
-          <!-- Publications -->
-          <table style="width:100%; border:0; margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px; vertical-align:middle;">
-                  <h2>Publications</h2>
-                  <p>(* denotes equal contribution.)</p>
-                  <!-- Example approach: Each publication in a sub-table or list -->
-                  <ul>
-                    <li>
-                      <strong>ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning</strong><br />
-                      <em>ICML</em>, 2026.<br />
-                      <strong>Xiaoxuan Wang*</strong>, Han Zhang*, Haixin Wang*, Yidan Shi, Ruoyan Li, Kaiqiao Han, Chenyi Tong, Haoran Deng, Renliang Sun, Alexander Taylor, Yanqiao Zhu, Jason Cong, Yizhou Sun, Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/abs/2602.21534">Paper</a>]
-                      [<a href="https://github.com/WillDreamer/ARL-Arena">Code</a>]
-                      [<a href="https://huggingface.co/UCLA-SCAI/models">Model</a>]
-                    </li>
-                    <li>
-                      <strong>From Solving to Verifying: A Unified Objective for Robust Reasoning in LLMs</strong><br />
-                      <strong>Xiaoxuan Wang</strong>, Bo Liu, Song Jiang, Jingzhou Liu, Jingyuan Qi, Xia Chen, Baosheng He
-                      <br />
-                      [<a href="https://arxiv.org/abs/2511.15137">Paper</a>]
-                    </li>
-                    <li>
-                      <strong>MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science</strong><br />
-                      <em>KDD</em>, 2026.<br />
-                      Junkai Zhang*, Jingru Gan*, <strong>Xiaoxuan Wang</strong>, Zian Jia, Changquan Gu, Jianpeng Chen, Yanqiao Zhu, Mingyu Derek Ma, Dawei Zhou, Ling Li, Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/abs/2510.12171">Paper</a>]
-                      [<a href="https://github.com/Jun-Kai-Zhang/MatSciBench">Code</a>]
-                      [<a href="https://huggingface.co/datasets/MatSciBench/MatSciBench">Dataset</a>]
-                    </li>
-                    <li>
-                      <strong>EAST: Entropy-Based Adaptive Weighting for Self-Training</strong><br />
-                      <strong>Xiaoxuan Wang</strong>, Yihe Deng, Mingyu Derek Ma, Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/pdf/2503.23913">Paper</a>]
-                      [<a href="https://github.com/mandyyyyii/east">Code</a>]
-                    </li>
-                    <li>
-                      <strong>SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of LLM</strong><br />
-                      <em>ICML</em>, 2024.<br />
-                      <strong>Xiaoxuan Wang*</strong>, Ziniu Hu*, Pan Lu*, Yanqiao Zhu*, Jieyu Zhang, Satyen Subramaniam,  Arjun R. Loomba,  Shichang Zhang,  Yizhou Sun,  Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/abs/2307.10635">Paper</a>]
-                      [<a href="https://github.com/mandyyyyii/scibench">Code</a>]
-                      [<a href="https://scibench-ucla.github.io">Website</a>]
-                      [<a href="https://www.nature.com/articles/d41586-023-03507-3">Media Coverage</a>]
-                    </li>
-                    <li>
-                      <strong>Memorize and Rank: Elevating LLMs for Clinical Diagnosis Prediction</strong><br />
-                      <em>AAAI</em>, 2025 &amp; <em>NeurIPS GenAI4Health</em>, 2024.<br />
-                      Mingyu Derek Ma, <strong>Xiaoxuan Wang</strong>, Yijia Xiao, Anthony Cuturrufo, Vijay S Nori, Eran Halperin, Wei Wang
-                      <br />
-                      [<a href="https://openreview.net/forum?id=bO5UYHs6sn">Paper</a>]
-                    </li>
-                    <li>
-                      <strong>CliBench: A Multifaceted and Multigranular Evaluation of LLMs for Clinical Decision Making</strong><br />
-                      Mingyu Derek Ma, Chenchen Ye, Yu Yan, <strong>Xiaoxuan Wang</strong>, Peipei Ping, Timothy S Chang, Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/abs/2406.09923">Paper</a>]
-                      [<a href="https://github.com/CliBench/CliBench">Code</a>]
-                      [<a href="https://clibench.github.io/">Website</a>]
-                    </li>
-                    <li>
-                      <strong>STAR: Boosting Low-Resource Information Extraction by Structure-to-Text Data Generation with Large Language Models</strong><br />
-                      <em>AAAI</em>, 2023.<br />
-                      Mingyu Derek Ma, <strong>Xiaoxuan Wang</strong>, Po-Nien Kung, Jeffrey Brantingham, Nanyun Peng, Wei Wang
-                      <br />
-                      [<a href="https://arxiv.org/abs/2305.15090">Paper</a>]
-                    </li>
-                    <li>
-                      <strong>Learning under Label Proportions for Text Classification</strong><br />
-                      <em>EMNLP Findings</em>, 2023.<br />
-                      Jatin Chauhan, <strong>Xiaoxuan Wang</strong>, Wei Wang<br />
-                      [<a href="https://arxiv.org/abs/2310.11707">Paper</a>]
-                    </li>
-                    <li>
-                      <strong>Seamless Equal Accuracy Ratio for Inclusive CTC Speech Recognition</strong><br />
-                      <em>Speech Communication</em>, 2022.<br />
-                      Heting Gao, <strong>Xiaoxuan Wang</strong>, Sunghun Kang, Rusty Mina, Dias Issa, John Harvill, Leda Sari, Mark Hasegawa-Johnson, Chang D. Yoo
-                      <br />
-                      [<a href="https://www.sciencedirect.com/science/article/pii/S016763932100128X?via%3Dihub">Paper</a>]
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Jun 2026</span><span class="news-body">Release new work <a href="https://arxiv.org/pdf/2606.12882">HarnessBridge</a>.</span></li>
+        <li><span class="date">May 2026</span><span class="news-body"><a href="https://arxiv.org/abs/2602.21534">ARLArena</a> is accepted to <em>ICML 2026</em>, and <a href="https://arxiv.org/abs/2510.12171">MatSciBench</a> is accepted to <em>KDD 2026</em>.</span></li>
+        <li><span class="date">Mar 2026</span><span class="news-body">Invited talk on ARLArena at NICE (Nexus for IntelligenCE).</span></li>
+        <li><span class="date">Oct 2025</span><span class="news-body"><a href="https://arxiv.org/pdf/2503.23913">EAST</a> is accepted to the <em>NeurIPS 2025 MathAI</em> workshop.</span></li>
+      </ul>
 
+      <h2>Selected Projects</h2>
+      <ul class="simple-list">
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning</span>
+            <span class="exp-date">2025 &ndash; Present</span>
+          </div>
+          <div class="exp-role">Project Lead</div>
+          <div class="exp-desc">
+            Leading a large-scale project on agentic LLMs: principled training and inference recipes across 8+ tasks;
+            a unified, extensible pipeline supporting 16+ policy optimization algorithms with extensions to
+            asynchronous agent training and MoE models; a multi-agent system for interactive agentic tasks; and
+            extensive empirical analyses of training stability, scalability, and system efficiency across NVIDIA
+            and AMD GPUs.
+          </div>
+        </li>
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">SciBench: Evaluating Scientific Problem-Solving in Large Language Models</span>
+            <span class="exp-date">2023 &ndash; 2024</span>
+          </div>
+          <div class="exp-desc">
+            Developed SciBench to evaluate college-level scientific reasoning in LLMs, with evaluation protocols and
+            analyses of model capabilities and failure modes across scientific domains. Published at <em>ICML 2024</em>;
+            covered in a <a href="https://www.nature.com/articles/d41586-023-03507-3">Nature News Feature</a>.
+          </div>
+        </li>
+      </ul>
 
-          <!-- Teaching -->
-          <table style="width:100%; border:0; margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px; vertical-align:middle;">
-                  <h2>Teaching</h2>
-                  <ul>
-                    <li>
-                      Fall 2023: Teaching Assistant CS245 Big Data Analytics @UCLA
-                    </li>
-                    <li>
-                      Spring 2022: Course Assistant CS446 Machine Learning @UIUC
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <h2>Publications</h2>
+      <!-- <p class="note">(* denotes equal contribution; &dagger; denotes mentored students)</p> -->
 
-          <!-- Intern -->
-          <table style="width:100%; border:0; margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px; vertical-align:middle;">
-                  <h2>Intern Experience</h2>
-                  <ul>
-                    <li>
-                      Summer 2024: Applied Scientist Intern @Amazon AWS
-                    </li>
-                    <li>
-                      Summer 2025: Research Intern @Meta
-                    </li>
-                    <li>
-                      Summer 2026: Research Intern @Preference Model
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <h3>Agentic RL &amp; LLM Agents</h3>
+      <ul class="publications">
+        <li>
+          <span class="badge preprint">Preprint 2026</span>
+          <span class="pub-title">HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness</span>
+          <span class="pub-authors"><span class="me">Xiaoxuan Wang</span>*, Haixin Wang*, Alex Taylor, Jason Cong, Yizhou Sun, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/pdf/2606.12882">Paper</a>]
+            [<a href="https://github.com/mandyyyyii/HarnessBridge">Code</a>]
+            [<a href="https://huggingface.co/HarnessBridge">Model</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge">ICML 2026</span>
+          <span class="pub-title">ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning</span>
+          <span class="pub-authors"><span class="me">Xiaoxuan Wang</span>*, Han Zhang*, Haixin Wang*, Yidan Shi&dagger;, Ruoyan Li&dagger;, Kaiqiao Han&dagger;, Chengyi Tong, Haoran Deng, Alex Taylor, Yanqiao Zhu, Renliang Sun, Jason Cong, Yizhou Sun, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2602.21534">Paper</a>]
+            [<a href="https://github.com/WillDreamer/ARL-Arena">Code</a>]
+            [<a href="https://huggingface.co/UCLA-SCAI/models">Model</a>]
+          </span>
+        </li>
+      </ul>
 
-          <!-- End of main content -->
-        </td>
-      </tr>
-    </tbody>
-  </table>
+      <h3>LLM Reasoning, Post-Training &amp; Evaluation</h3>
+      <ul class="publications">
+        <li>
+          <span class="badge">ICML 2024</span>
+          <span class="pub-title">SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models</span>
+          <span class="pub-authors"><span class="me">Xiaoxuan Wang</span>*, Ziniu Hu*, Pan Lu*, Yanqiao Zhu*, Jieyu Zhang, Satyen Subramaniam, Arjun R. Loomba, Shichang Zhang, Yizhou Sun, Wei Wang</span>
+          <span class="pub-venue">Media coverage: <a href="https://www.nature.com/articles/d41586-023-03507-3">Nature News Feature</a></span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2307.10635">Paper</a>]
+            [<a href="https://github.com/mandyyyyii/scibench">Code</a>]
+            [<a href="https://scibench-ucla.github.io">Website</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge">NeurIPS MathAI 2025</span>
+          <span class="pub-title">EAST: Entropy-Based Adaptive Weighting for Self-Training</span>
+          <span class="pub-authors"><span class="me">Xiaoxuan Wang</span>, Yihe Deng, Mingyu Derek Ma, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/pdf/2503.23913">Paper</a>]
+            [<a href="https://github.com/mandyyyyii/east">Code</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge preprint">Preprint 2025</span>
+          <span class="pub-title">From Solving to Verifying: A Unified Objective for Robust Reasoning in LLMs</span>
+          <span class="pub-authors"><span class="me">Xiaoxuan Wang</span>, Bo Liu, Song Jiang, Jingzhou Liu, Jingyuan Qi, Xia Chen, Baosheng He</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2511.15137">Paper</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge">KDD 2026</span>
+          <span class="pub-title">MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science</span>
+          <span class="pub-authors">Junkai Zhang*, Jingru Gan*, <span class="me">Xiaoxuan Wang</span>, Zian Jia, Changquan Gu, Jianpeng Chen, Yanqiao Zhu, Mingyu Derek Ma, Dawei Zhou, Ling Li, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2510.12171">Paper</a>]
+            [<a href="https://github.com/Jun-Kai-Zhang/MatSciBench">Code</a>]
+            [<a href="https://huggingface.co/datasets/MatSciBench/MatSciBench">Dataset</a>]
+          </span>
+        </li>
+      </ul>
 
-  <!-- Footer / Last updated -->
-  <p align="center">
-    <font color="#999999">Last Updated: Dec 2023</font>
-  </p>
+      <h3>Clinical &amp; Domain Applications</h3>
+      <ul class="publications">
+        <li>
+          <span class="badge">AAAI 2025</span>
+          <span class="pub-title">Memorize and Rank: Evaluating LLMs for Clinical Diagnosis Prediction</span>
+          <span class="pub-authors">Mingyu Derek Ma, <span class="me">Xiaoxuan Wang</span>, Yijia Xiao, Anthony Cuturrufo, Vijay S. Nori, Eran Halperin, Wei Wang</span>
+          <span class="pub-venue">Also at NeurIPS GenAI4Health Workshop 2024</span>
+          <span class="pub-links">
+            [<a href="https://openreview.net/forum?id=bO5UYHs6sn">Paper</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge preprint">Preprint 2024</span>
+          <span class="pub-title">CliBench: Multifaceted Evaluation of LLMs in Clinical Decision Making</span>
+          <span class="pub-authors">Mingyu Derek Ma, Chenchen Ye, Yu Yan, <span class="me">Xiaoxuan Wang</span>, Peipei Ping, Timothy S. Chang, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2406.09923">Paper</a>]
+            [<a href="https://github.com/CliBench/CliBench">Code</a>]
+            [<a href="https://clibench.github.io/">Website</a>]
+          </span>
+        </li>
+      </ul>
 
+      <h3>Earlier Work (NLP &amp; Speech)</h3>
+      <ul class="publications">
+        <li>
+          <span class="badge">AAAI 2024</span>
+          <span class="pub-title">STAR: Boosting Low-Resource Event Extraction via Structure-to-Text Generation</span>
+          <span class="pub-authors">Mingyu Derek Ma, <span class="me">Xiaoxuan Wang</span>, Po-Nien Kung, P. Jeffrey Brantingham, Nanyun Peng, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2305.15090">Paper</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge">EMNLP Findings 2023</span>
+          <span class="pub-title">Learning under Label Proportions for Text Classification</span>
+          <span class="pub-authors">Jatin Chauhan, <span class="me">Xiaoxuan Wang</span>, Wei Wang</span>
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2310.11707">Paper</a>]
+          </span>
+        </li>
+        <li>
+          <span class="badge preprint">Preprint 2022</span>
+          <span class="pub-title">Global Responses to the COVID-19 Pandemic: Evidence Finding and Verification</span>
+          <span class="pub-authors">Rotem Dror, <span class="me">Xiaoxuan Wang</span>, Dan Roth</span>
+        </li>
+        <li>
+          <span class="badge">Speech Communication 2022</span>
+          <span class="pub-title">Seamless Equal Accuracy Ratio for Inclusive CTC Speech Recognition</span>
+          <span class="pub-authors">Heting Gao, <span class="me">Xiaoxuan Wang</span>, Sunghun Kang, Rusty Mina, Dias Issa, John Harvill, Leda Sari, Mark Hasegawa-Johnson, Chang D. Yoo</span>
+          <span class="pub-links">
+            [<a href="https://www.sciencedirect.com/science/article/pii/S016763932100128X?via%3Dihub">Paper</a>]
+          </span>
+        </li>
+      </ul>
+
+      <h2>Invited Talks</h2>
+      <ul class="simple-list">
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning</span>
+            <span class="exp-date">March 2026</span>
+          </div>
+          <div class="exp-role">NICE (Nexus for IntelligenCE)</div>
+        </li>
+      </ul>
+
+      <h2>Internship Experience</h2>
+      <ul class="simple-list">
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">Preference Model</span>
+            <span class="exp-date">Summer 2026</span>
+          </div>
+          <div class="exp-role">Research Intern</div>
+        </li>
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">Meta Platforms, Inc.</span>
+            <span class="exp-date">Summer 2025</span>
+          </div>
+          <div class="exp-role">Research Intern (AI)</div>
+          <div class="exp-desc">
+            Developed GRPO-Verif, a reinforcement learning algorithm that jointly optimizes solution generation and
+            self-verification in LLMs via a unified loss formulation, improving self-verification while preserving
+            reasoning performance.
+          </div>
+        </li>
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">Amazon Development Center U.S., Inc.</span>
+            <span class="exp-date">Summer 2024</span>
+          </div>
+          <div class="exp-role">Applied Scientist Intern</div>
+          <div class="exp-desc">
+            Implemented and evaluated RLHF methods (REST-EM, Iterative DPO, and variants) for tool-integrated problem
+            solving in LLMs; showed that regularization mitigates overfitting from self-generated data and improves
+            tool usage.
+          </div>
+        </li>
+      </ul>
+
+      <h2>Education</h2>
+      <ul class="simple-list">
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">University of California, Los Angeles</span>
+            <span class="exp-date">Sept. 2022 &ndash; Present</span>
+          </div>
+          <div class="exp-role">Ph.D. in Computer Science &nbsp;&middot;&nbsp; Advisor: Wei Wang</div>
+        </li>
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">University of Illinois Urbana-Champaign</span>
+            <span class="exp-date">Aug. 2018 &ndash; May 2022</span>
+          </div>
+          <div class="exp-role">B.S. in Computer Science, Grainger College of Engineering</div>
+          <div class="exp-desc">Minor in Mathematics &nbsp;&middot;&nbsp; James Scholar Honor &nbsp;&middot;&nbsp; Dean's List</div>
+        </li>
+      </ul>
+
+      <h2>Teaching</h2>
+      <ul class="simple-list">
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">CS 245: Big Data Analytics, UCLA</span>
+            <span class="exp-date">Fall 2023</span>
+          </div>
+          <div class="exp-role">Teaching Assistant</div>
+        </li>
+        <li>
+          <div class="exp-header">
+            <span class="exp-org">CS 446: Machine Learning, UIUC</span>
+            <span class="exp-date">Spring 2022</span>
+          </div>
+          <div class="exp-role">Course Assistant</div>
+        </li>
+      </ul>
+
+      <p class="footer-note">Last updated June 2026.</p>
+
+    </section>
+
+  </div>
 </body>
+
 </html>
